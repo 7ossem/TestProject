@@ -5,6 +5,8 @@
  */
 package test;
 
+import com.sun.glass.events.SwipeGesture;
+
 /**
  *
  * @author hpro
@@ -14,8 +16,13 @@ public class Test {
     /**
      * @param args the command line arguments
      */
+    public static void dir(){
+            System.out.print("Void : ");   
+    }
     public static void main(String[] args) {
-            System.out.print("Hello World");   
+
+         System.out.print("Hello World"); 
+                 dir();
     }
     
 }
